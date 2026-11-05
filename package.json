@@ -1,0 +1,21 @@
+{
+  "name": "promise-all-rejection-and-cancellation",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "description": "Reproductions for JavaScript Under the Hood, Article 1: what happens to the other operations when Promise.all() rejects.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "01": "node 01-lifecycle.mjs",
+    "02": "node 02-later-rejections.mjs",
+    "03": "node 03-combinators.mjs",
+    "04": "node 04-cancellation.mjs",
+    "05": "node 05-partial-failure.mjs",
+    "all": "node 01-lifecycle.mjs && node 02-later-rejections.mjs && node 03-combinators.mjs && node 04-cancellation.mjs && node 05-partial-failure.mjs",
+    "test": "node --test",
+    "repeat": "node repeat.mjs",
+    "verify": "npm test && npm run all"
+  }
+}
