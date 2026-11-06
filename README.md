@@ -6,7 +6,7 @@ Plain Node.js. No dependencies, no network, no servers, no database.
 
 ## Requirements
 
-Node.js 22 or newer. The tests and all five scripts were run on Node 22.23.4, 24.22.2 and 26.13.0. No other versions were tested. Node 20 reached end of life on 2026-04-30 and is not supported.
+Node.js 22 or newer. The tests and all five scripts were run on Linux with Node 22.23.4, 24.22.2 and 26.13.0, and on Windows with Node 22.22.2. `npm run repeat` was stable on both. No other versions or operating systems were tested. Node 20 reached end of life on 2026-04-30 and is not supported.
 
 ## Run it
 
